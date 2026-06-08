@@ -2,7 +2,7 @@ export const getCalculateTool = {
   type: 'function',
   function: {
     name: 'calculate',
-    description: '執行數學計算',
+    description: '進行數學計算',
     parameters: {
       type: 'object',
       properties: {
