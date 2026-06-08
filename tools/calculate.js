@@ -8,7 +8,7 @@ export const getCalculateTool = {
       properties: {
         expression: {
           type: 'string',
-          description: "數學運算式，例如 '2 + 3 * 5' 或 '10 / 2'",
+          description: "數學運算式'",
         },
       },
       required: ['expression'],
