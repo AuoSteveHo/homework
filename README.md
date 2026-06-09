@@ -1,4 +1,59 @@
 # homework
-node scripts/embed-coffee.js
-node coffee-main.js 
-node rag_function_call.js 
+
+codespace@codespaces-ea9b35:/workspaces/homework$ node scripts/embed-coffee.js
+讀到 5 筆資料
+已建立 collection: coffee
+進度：5 / 5
+完成！
+codespace@codespaces-ea9b35:/workspaces/homework$ node coffee-main.js 
+✔ 想喝點什麼？請輸入想搜尋的咖啡風味或關鍵字： 濃縮咖啡
+
+ 1. 卡布奇諾 (Cappuccino)
+   相似度分數：0.679
+   成分比例 ：濃縮咖啡 + 蒸氣牛奶 + 厚奶泡 (1:1:1)
+   風味說明 ：奶泡質地厚實綿密。相較於拿鐵，卡布奇諾的咖啡風味更顯濃郁且帶有可可感。
+
+ 2. 美式咖啡 (Americano)
+   相似度分數：0.673
+   成分比例 ：濃縮咖啡 + 大量熱水
+   風味說明 ：口感清爽且帶有濃郁的咖啡香氣，醇厚度較低，最能品嚐出咖啡豆的原味。
+
+ 3. 焦糖瑪奇朵 (Caramel Macchiato)
+   相似度分數：0.652
+   成分比例 ：濃縮咖啡 + 蒸氣牛奶 + 香草糖漿 + 焦糖醬
+   風味說明 ：以牛奶和香草糖漿打底，再倒入濃縮咖啡，最後淋上焦糖。層次分明，帶有濃郁的焦糖甜香。
+
+ 4. 摩卡咖啡 (Caffè Mocha)
+   相似度分數：0.640
+   成分比例 ：濃縮咖啡 + 巧克力醬 + 蒸氣牛奶 + 鮮奶油
+   風味說明 ：融合了巧克力與咖啡的雙重香氣，甜而不膩，口感豐富，適合喜歡甜食與花式咖啡的人。
+
+ 5. 拿鐵咖啡 (Caffè Latte)
+   相似度分數：0.636
+   成分比例 ：濃縮咖啡 + 大量蒸氣牛奶 + 薄奶泡
+   風味說明 ：牛奶比例較高，口感滑順細緻，乳香與咖啡香完美平衡，非常適合大眾口味。
+
+codespace@codespaces-ea9b35:/workspaces/homework$ node rag_function_call.js 
+✔ 請輸入你的問題： 請幫我查詢咖啡資料庫，推薦我一個沒有牛奶的咖啡
+
+[呼叫 tool] search_coffee({"query":"不含牛奶 咖啡 黑咖啡 美式 濃縮 Espresso Americano 無奶","limit":5})
+我在資料庫中找到幾種不含牛奶的選項，推薦你：美式咖啡（Americano）。
+
+簡介（為什麼推薦）
+- 成分：濃縮咖啡 + 大量熱水（不含牛奶）
+- 風味：口感清爽、能明顯品出咖啡豆的原味與酸質，醇厚度較低，較適合想喝純咖啡風味的人
+- 適合誰：想要純粹黑咖啡、不加牛奶或奶類替代品、想品嚐咖啡豆風味或需要一杯低甜度/低乳脂飲品的人
+
+點法與變化建議
+- 若想要較溫和：點熱美式（Hot Americano）
+- 若想要口感更清爽：點冰美式（Iced Americano）
+- 若想要更濃郁的咖啡感：改為單/雙份濃縮（Espresso）或請店員少加水（Long Black 保留較多 crema）
+- 想喝無糖但帶一點風味：可加檸檬皮或少量香草糖漿（但會改變原味）
+
+下單範例（中文/英文）
+- 中文：請給我一杯熱美式，不要牛奶，謝謝。
+- 英文：One hot Americano, no milk, please.
+
+需要我依你喜好再推薦更濃或更順口的選擇（例如直接濃縮 Espresso、自然風味的單品豆美式等）？還是要我幫你從資料庫再找特定風味（果酸、巧克力、堅果等）的黑咖啡？
+✔ 請輸入你的問題： exit
+再會~
