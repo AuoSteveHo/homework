@@ -1,5 +1,9 @@
 # homework4
-@AuoSteveHo ➜ /workspaces/homework (homework4) $ node rag_function_call.js 
+
+```bash
+node rag_function_call.js 
+```
+```text
 ✔ 請輸入你的問題： 現在幾點?
 
 [呼叫 tool] get_current_time({})
@@ -29,3 +33,4 @@
 - 若要久留戶外或運動，考慮室內替代方案；短時間外出可穿輕薄外套。
 ✔ 請輸入你的問題： exit
 再會~
+```
