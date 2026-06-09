@@ -1,4 +1,5 @@
-# homework
+# homework2
+
 @AuoSteveHo ➜ /workspaces/homework (homework2) $ node function_call.js 
 
 [呼叫 tool] calculate({"expression":"123*456*789"})
