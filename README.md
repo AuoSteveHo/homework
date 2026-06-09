@@ -1,11 +1,21 @@
 # homework3
 
-codespace@codespaces-ea9b35:/workspaces/homework$ node scripts/embed-coffee.js
+```bash
+node scripts/embed-coffee.js
+```
+
+```text
 讀到 5 筆資料
 已建立 collection: coffee
 進度：5 / 5
 完成！
-codespace@codespaces-ea9b35:/workspaces/homework$ node coffee-main.js 
+```
+
+```bash
+node coffee-main.js 
+```
+
+```text
 ✔ 想喝點什麼？請輸入想搜尋的咖啡風味或關鍵字： 濃縮咖啡
 
  1. 卡布奇諾 (Cappuccino)
@@ -32,8 +42,13 @@ codespace@codespaces-ea9b35:/workspaces/homework$ node coffee-main.js
    相似度分數：0.636
    成分比例 ：濃縮咖啡 + 大量蒸氣牛奶 + 薄奶泡
    風味說明 ：牛奶比例較高，口感滑順細緻，乳香與咖啡香完美平衡，非常適合大眾口味。
+```
 
-codespace@codespaces-ea9b35:/workspaces/homework$ node rag_function_call.js 
+```bash
+node rag_function_call.js 
+```
+
+```text
 ✔ 請輸入你的問題： 請幫我查詢咖啡資料庫，推薦我一個沒有牛奶的咖啡
 
 [呼叫 tool] search_coffee({"query":"不含牛奶 咖啡 黑咖啡 美式 濃縮 Espresso Americano 無奶","limit":5})
@@ -57,3 +72,4 @@ codespace@codespaces-ea9b35:/workspaces/homework$ node rag_function_call.js
 需要我依你喜好再推薦更濃或更順口的選擇（例如直接濃縮 Espresso、自然風味的單品豆美式等）？還是要我幫你從資料庫再找特定風味（果酸、巧克力、堅果等）的黑咖啡？
 ✔ 請輸入你的問題： exit
 再會~
+```
