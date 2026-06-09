@@ -1,5 +1,8 @@
 # homework5
+
 @AuoSteveHo ➜ /workspaces/homework (homework5) $ node scripts/compare-sentences.js 
+
+```text
 === 🤖 歡迎使用【三句文字】語意相似度交叉比對工具 ===
 
 請輸入第一個句子 (A)：今天天氣很好
@@ -26,3 +29,4 @@
 💡 綜合分析：在這三個句子中，語意最接近的是 (A) 與 (B)，分數達 0.2874。
 
 感謝使用，再會！
+```
