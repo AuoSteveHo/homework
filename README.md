@@ -1,6 +1,9 @@
 # homework5
 
-@AuoSteveHo ➜ /workspaces/homework (homework5) $ node scripts/compare-sentences.js 
+@AuoSteveHo ➜ /workspaces/homework (homework5) $ 
+```bash
+node scripts/compare-sentences.js
+```
 
 ```text
 === 🤖 歡迎使用【三句文字】語意相似度交叉比對工具 ===
