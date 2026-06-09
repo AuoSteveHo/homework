@@ -1,4 +1,31 @@
-# homework
-node scripts/embed-coffee.js
-node coffee-main.js 
-node rag_function_call.js 
+# homework4
+@AuoSteveHo ➜ /workspaces/homework (homework4) $ node rag_function_call.js 
+✔ 請輸入你的問題： 現在幾點?
+
+[呼叫 tool] get_current_time({})
+現在是 2026年6月9日 下午1:30:21（台灣時間）。還需要我幫你做什麼嗎？
+✔ 請輸入你的問題： 台北天氣如何?
+
+[呼叫 tool] get_weather({"city":"Taipei"})
+台北目前是小雨，氣溫約 26°C，濕度 53%。
+
+建議：
+- 出門帶雨具（傘或輕便雨衣）。  
+- 注意路面濕滑、行車與騎車減速慢行。  
+- 若要久留戶外或運動，考慮室內替代方案；短時間外出可穿輕薄外套。
+
+要我幫你查今日整天或未來幾小時的雨勢預報、溫度趨勢或其他城市的天氣嗎？
+✔ 請輸入你的問題： 現在幾點?台北天氣如何?
+
+[呼叫 tool] get_current_time({})
+
+[呼叫 tool] get_weather({"city":"Taipei"})
+現在是 2026年6月9日 下午1:30:52（台灣時間）。  
+台北目前是小雨，氣溫約 26°C，濕度 53%。
+
+建議：
+- 出門帶雨具（傘或輕便雨衣）。  
+- 注意路面濕滑、行車與騎車減速慢行。  
+- 若要久留戶外或運動，考慮室內替代方案；短時間外出可穿輕薄外套。
+✔ 請輸入你的問題： exit
+再會~
